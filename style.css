@@ -233,7 +233,7 @@ h1{
         height: 100vh;
         background-color: hsl(36, 100%, 99%);
         top: 60px;
-        right: 17%;
+        right: 10%;
         padding-top: 2rem;
         padding-left: 2rem;
         transition: all ease-in 0.5s;
