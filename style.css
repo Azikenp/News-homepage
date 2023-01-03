@@ -17,6 +17,8 @@ body{
     display: block;
     margin: 0 auto;
     margin: 6rem 10rem;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 header{
@@ -224,22 +226,17 @@ h1{
         grid-area: a;
     }
 
-    header ul{
+    header .nav-tog{
+        display: none;
         position: fixed;
         width: 17rem;
         height: 100vh;
         background-color: hsl(36, 100%, 99%);
         top: 60px;
-        right: 0%;
-        /* right: 0px; */
-        padding-top: 3rem;
+        right: 17%;
+        padding-top: 2rem;
         padding-left: 2rem;
-        transition: all 0.4s;
-        /* text-align: center; */
-    }
-
-    header ul:hover{
-        right: -100%;
+        transition: all ease-in 0.5s;
     }
 
     header ul li a{
@@ -258,12 +255,11 @@ h1{
         grid-area: b;
     }
 
-    /* header .menu-close{
-        display: block;
-        position: absolute;
-        right: 13px;
-        top: 22px;
-    } */
+    header .menu-close{
+        display: none;
+        height: 1.1rem;
+        grid-area: b;
+    }
 
 
 
